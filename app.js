@@ -36,6 +36,6 @@ app.on('error', (err, ctx) => {
   console.error('server error', err, ctx)
 });
 
-console.log('server started on port 3000')
+console.log(`server started on port ${process.env.PORT || '3000'}`)
 
 module.exports = app

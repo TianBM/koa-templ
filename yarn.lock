@@ -1068,6 +1068,13 @@ koa-onerror@^4.1.0:
     escape-html "^1.0.3"
     stream-wormhole "^1.1.0"
 
+koa-router-version@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/koa-router-version/download/koa-router-version-1.2.0.tgz#a44c819c3667d7f43ce113e0aced7ad63d1a17d3"
+  integrity sha1-pEyBnDZn1/Q84RPgrO161j0aF9M=
+  dependencies:
+    semver "^5.4.1"
+
 koa-router@^7.4.0:
   version "7.4.0"
   resolved "https://registry.npmmirror.com/koa-router/download/koa-router-7.4.0.tgz#aee1f7adc02d5cb31d7d67465c9eacc825e8c5e0"
@@ -1571,7 +1578,7 @@ semver-diff@^2.0.0:
   dependencies:
     semver "^5.0.3"
 
-semver@^5.0.3, semver@^5.1.0, semver@^5.7.1:
+semver@^5.0.3, semver@^5.1.0, semver@^5.4.1, semver@^5.7.1:
   version "5.7.1"
   resolved "https://registry.nlark.com/semver/download/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
